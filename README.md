@@ -6,9 +6,13 @@ This repo contains the implementation for 'Analysis and Evaluation of Kinect-bas
 
 To run this algorithm:
 
+### Data preparation
+
 - Go to the 'Dataset' folder, then go to the 'depth' folder and copy all depth sequence in this folder (should be .mat format and the internal data has the same name 'inDepthVideo'). 
 
 - After that go to the 'skeleton' folder, copy all skeleton sequence (the skeleton sequence should also be .mat format and each skeleton sequence has the following dimension: #jointsx3x#frames, here 3 represents x, y and d respectively), the internal data has the same name 'skeletonsequence'.
+
+### Feature extraction and concatenation
 
 - Go to the 'MATLAB_Codes' folder, run each 'main' in each algorithm folder(in the order of 00, 01, 02 and 03), and then run 'main' in 'feature_concatenating'. You can also run '02' and '03' first and then run '00' and '01', since '00' may need more time for segmenting the foreground (around 6 hours) and '01' is based on the results of '00'.
 
@@ -27,7 +31,9 @@ To run this algorithm:
     - UWA3D single view dataset: 15 joints, torso joint ID is '9';
 
     - UWA3D multi view dataset: 15 joints, torso joint ID is '3';
- 
+
+### Classification
+
 - Run 'main' of random decision forests (Lei uses different 'main' for different datasets since different datasets should have different training and testing datasets). In Lei's implementation, half of data are used for training and the remaining half for testing.
 
   - MSRPairs: 'msrpairsmain.m'
@@ -40,6 +46,7 @@ To run this algorithm:
 
   - UWA3D multi view: 'uwamultimain.m'
 
+
 - The results of the confusion matrix will be saved in the 'Results' folder, and the confusion matrix will be displayed. Moreover, the total accuracy will appear in the workspace of the MATLAB.
 
 
@@ -49,6 +56,9 @@ To run this algorithm:
 **Codes for parameters evaluation, running over all possible 252 combinations of selecting half subjects for training are not provided.**
 
 For more information, please refer to my research report: “Analysis and Evaluation of Kinect-based Action Recognition Algorithms”.
+
+## Citations
+
 
 
 ```
