@@ -19,23 +19,20 @@ To run this algorithm:
 **Remember to change the number of joints and the torso joint ID in the 'main' of '02' and '03' since different datasets have different number of joints and torso joint IDs. **
 
   - MSRPairs: 20 joints, torso joint ID is '2';
-
   - MSRAction3D: 20 joints, torso joint ID is '4';
-
   - CAD60: 15 joints, torso joint ID is '3';
-
   - UWA3D single view dataset: 15 joints, torso joint ID is '9';
-
   - UWA3D multi view dataset: 15 joints, torso joint ID is '3';
 
-Run 'main' of random decision forests (Lei uses different 'main' for different datasets since different datasets should have different training and testing datasets). In Lei's implementation, half of data are used for training and the remaining half for testing.
+- Run 'main' of random decision forests (Lei uses different 'main' for different datasets since different datasets should have different training and testing datasets). In Lei's implementation, half of data are used for training and the remaining half for testing.
+
 MSRPairs: 'msrpairsmain.m'
 MSRAction3D: 'msr3dmain.m'
 CAD60: 'cad main.m'
 UWA3D single view: 'uwasinglemain.m'
 UWA3D multi view: 'uwamultimain.m'
 
-The results of the confusion matrix will be saved in the 'Results' folder, and the confusion matrix will be displayed. Moreover, the total accuracy will appear in the workspace of the MATLAB.
+- The results of the confusion matrix will be saved in the 'Results' folder, and the confusion matrix will be displayed. Moreover, the total accuracy will appear in the workspace of the MATLAB.
 'saveTightFigure' function is downloaded from online resource, which can be used to save the confusion matrix plot as pdf files. The use of this function is: 'saveTightFigure(gcf, 'uwamultiview.pdf');'
 
 
