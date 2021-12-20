@@ -31,7 +31,8 @@ You can download the depth/skeleton sequences for the following datasets here:
 - [UWA3D Multiview Activity](https://drive.google.com/file/d/1ni76DwhNZvmLqP011qKir7ZFsRbW3bFn/view?usp=sharing)
 - [CAD60]()
 
-For UWA3DActivity+UWA3D Multiview Activity depth only, you can use [this link](https://pan.baidu.com/s/1R5JRX8JnaFzEBAsZEtVUyQ)(extraction code: 172h)
+For UWA3DActivity+UWA3D Multiview Activity depth only, you can use [this link](https://pan.baidu.com/s/1R5JRX8JnaFzEBAsZEtVUyQ)(extraction code: 172h). 
+
 For CAD60 depth only, please use [this link](https://pan.baidu.com/s/1y11YieObi4H1GM6pe2P75g) (extraction code: 36wt)
 
 ## Run the codes of HDG
@@ -78,7 +79,7 @@ This is an implementation for Rahmani et al.’s paper ‘Real Time Action Recog
 
   - UWA3D multi view: 'uwamultimain.m'
 
-
+### Visualization (i.e., confusion matrix)
 - The results of the confusion matrix will be saved in the 'Results' folder, and the confusion matrix will be displayed. Moreover, the total accuracy will appear in the workspace of the MATLAB.
 
 
@@ -91,7 +92,7 @@ For more information, please refer to my research report and journal paper.
 
 ## Citations
 
-Please cite the following papers:
+You can cite the following papers for this work:
 
 ```
 @mastersthesis{lei_thesis_2017,
