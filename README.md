@@ -14,20 +14,21 @@ This repository contains the implementation of the model presented in the follow
 
 You can download other algorithms we evaluated in *TIP* paper from the following links:
 
-- [HON4D + MSRAction3D/3DActionPairs](https://drive.google.com/file/d/1La-9AFKWbJ4MfjnVB0FxBlmWFBlNhXx5/view?usp=sharing)
-- HOPC
-- 
-
+- [HON4D + MSRAction3D/3DActionPairs](https://drive.google.com/file/d/1qahLGmS137yCEf3KLXJMApj7MDgdwEUw/view?usp=sharing)
+- [HOPC](https://drive.google.com/file/d/1La-9AFKWbJ4MfjnVB0FxBlmWFBlNhXx5/view?usp=sharing)
+- [LARP-SE](https://drive.google.com/file/d/1XOd3bKDDqOJ1UHSdDBiVuAwlb3JGQYGw/view?usp=sharing)
+- [LARP-SO]()
 
 
 ## Datasets
 
-You can download the RGB/depth/skeleton sequences for the following datasets here: 
+You can download the depth/skeleton sequences for the following datasets here: 
 
-- UWA3DActivity
-- UWA3D Multiview Activity
-- CAD60
-
+- [MSRAction3D](https://drive.google.com/file/d/1kTp_QK2uRvY4sx9cSfuoTi2saBpIeqP5/view?usp=sharing)
+- [3DActionPairs](https://drive.google.com/file/d/1rjCqzFxZpF42YaPtvsaRokXAFuyz8Wbh/view?usp=sharing)
+- [UWA3DActivity]()
+- [UWA3D Multiview Activity](https://drive.google.com/file/d/1ni76DwhNZvmLqP011qKir7ZFsRbW3bFn/view?usp=sharing)
+- [CAD60](https://pan.baidu.com/s/1y11YieObi4H1GM6pe2P75g) (extraction code: 36wt)
 
 ## Run the codes
 
