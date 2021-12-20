@@ -16,7 +16,7 @@ To run this algorithm:
 
 - For feature concatenating, you can select different combinations of features for classification. There are four features, which are hod(histogram of depth), hodg(histogram of depth gradients), jmv(joint movement volume features) and jpd(joint position differences features).
 
-***Remember to change the number of joints and the torso joint ID in the 'main' of '02' and '03' since different datasets have different number of joints and torso joint IDs. ***
+**Remember to change the number of joints and the torso joint ID in the 'main' of '02' and '03' since different datasets have different number of joints and torso joint IDs. **
 
   - MSRPairs: 20 joints, torso joint ID is '2';
 
@@ -37,6 +37,12 @@ UWA3D multi view: 'uwamultimain.m'
 
 The results of the confusion matrix will be saved in the 'Results' folder, and the confusion matrix will be displayed. Moreover, the total accuracy will appear in the workspace of the MATLAB.
 'saveTightFigure' function is downloaded from online resource, which can be used to save the confusion matrix plot as pdf files. The use of this function is: 'saveTightFigure(gcf, 'uwamultiview.pdf');'
+
+
+**Codes for parameters evaluation, running over all possible 252 combinations of selecting half subjects for training are not provided.**
+
+For more information, please refer to my research report: “Analysis and Evaluation of Kinect-based Action Recognition Algorithms”.
+
 
 ```
 @mastersthesis{lei_thesis_2017,
