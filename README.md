@@ -6,7 +6,7 @@ This repo contains the implementation for 'Analysis and Evaluation of Kinect-bas
 
 This repository contains the implementation of the model presented in the following paper:
 
-Lei Wang, 2017. *Analysis and Evaluation of {K}inect-based Action Recognition Algorithms*. Master's thesis. School of Computer Science and Software Engineering, The University of Western Australia.
+Lei Wang, 2017. **Analysis and Evaluation of Kinect-based Action Recognition Algorithms**. *Master's thesis*. School of Computer Science and Software Engineering, The University of Western Australia.
 
 Lei Wang, Du Q. Huynh, and Piotr Koniusz. **A Comparative Review of Recent Kinect-Based Action Recognition Algorithms**. *IEEE Transactions on Image Processing*, 29: 15-28, 2020.
 
