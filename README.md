@@ -10,7 +10,7 @@ This repository contains the implementation of the model presented in the follow
 
 [2] Lei Wang, Du Q. Huynh, and Piotr Koniusz. **A Comparative Review of Recent Kinect-Based Action Recognition Algorithms**. *IEEE Transactions on Image Processing*, 29: 15-28, 2020.
 
-## Other algorithms
+## Other algorithms evaluated in TIP paper
 
 You can download other algorithms we evaluated in *TIP* paper from the following links:
 
@@ -18,7 +18,7 @@ You can download other algorithms we evaluated in *TIP* paper from the following
 - [HOPC](https://drive.google.com/file/d/1La-9AFKWbJ4MfjnVB0FxBlmWFBlNhXx5/view?usp=sharing)
 - [LARP-SE](https://drive.google.com/file/d/1XOd3bKDDqOJ1UHSdDBiVuAwlb3JGQYGw/view?usp=sharing)
 - [LARP-SO]()
-- [HPM]()
+- [HPM](https://drive.google.com/file/d/1pyb-qE1nup4ai1mhYVeibaizV1jV-EvR/view?usp=sharing)
 
 
 ## Datasets
@@ -29,11 +29,14 @@ You can download the depth/skeleton sequences for the following datasets here:
 - [3DActionPairs](https://drive.google.com/file/d/1rjCqzFxZpF42YaPtvsaRokXAFuyz8Wbh/view?usp=sharing)
 - [UWA3DActivity](https://drive.google.com/file/d/1VCCxLItHU3g2xGYs87r5TlooiicuO2Ak/view?usp=sharing)
 - [UWA3D Multiview Activity](https://drive.google.com/file/d/1ni76DwhNZvmLqP011qKir7ZFsRbW3bFn/view?usp=sharing)
-- [CAD60](https://pan.baidu.com/s/1y11YieObi4H1GM6pe2P75g) (extraction code: 36wt)
+- [CAD60]()
 
-## Run the codes
+For UWA3DActivity+UWA3D Multiview Activity depth only, you can use [this link](https://pan.baidu.com/s/1R5JRX8JnaFzEBAsZEtVUyQ)(extraction code: 172h)
+For CAD60 depth only, please use [this link](https://pan.baidu.com/s/1y11YieObi4H1GM6pe2P75g) (extraction code: 36wt)
 
-To run this algorithm:
+## Run the codes of HDG
+
+This is an implementation for Rahmani et al.’s paper ‘Real Time Action Recognition Using Histograms of Depth Gradients and Random Decision Forests’ (2014 WACV). To run the HDG algorithm:
 
 ### Data preparation
 
@@ -84,7 +87,7 @@ To run this algorithm:
 
 **Codes for parameters evaluation, running over all possible 252 combinations of selecting half subjects for training are not provided.**
 
-For more information, please refer to my research report: “Analysis and Evaluation of Kinect-based Action Recognition Algorithms”.
+For more information, please refer to my research report and journal paper.
 
 ## Citations
 
