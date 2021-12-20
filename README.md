@@ -83,7 +83,7 @@ This is an implementation for Rahmani et al.’s paper ‘Real Time Action Recog
 - The results of the confusion matrix will be saved in the 'Results' folder, and the confusion matrix will be displayed. Moreover, the total accuracy will appear in the workspace of the MATLAB.
 
 
-`saveTightFigure` function is downloaded from online resource, which can be used to save the confusion matrix plot as pdf files. The use of this function is: `saveTightFigure(gcf, 'uwamultiview.pdf');`
+`saveTightFigure` function is downloaded from online resource, which can be used to save the confusion matrix plot as pdf files. The use of this function is, for example: `saveTightFigure(gcf, 'uwamultiview.pdf');`
 
 
 **Codes for parameters evaluation, running over all possible 252 combinations of selecting half subjects for training are not provided.**
