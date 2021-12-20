@@ -16,17 +16,17 @@ To run this algorithm:
 
 - For feature concatenating, you can select different combinations of features for classification. There are four features, which are hod(histogram of depth), hodg(histogram of depth gradients), jmv(joint movement volume features) and jpd(joint position differences features).
 
-**Remember to change the number of joints and the torso joint ID in the 'main' of '02' and '03' since different datasets have different number of joints and torso joint IDs. **
+  - Remember to change the number of joints and the torso joint ID in the 'main' of '02' and '03' since different datasets have different number of joints and torso joint IDs. **
 
--- MSRPairs: 20 joints, torso joint ID is '2';
+   - MSRPairs: 20 joints, torso joint ID is '2';
 
--- MSRAction3D: 20 joints, torso joint ID is '4';
+   - MSRAction3D: 20 joints, torso joint ID is '4';
 
--- CAD60: 15 joints, torso joint ID is '3';
+   - CAD60: 15 joints, torso joint ID is '3';
 
--- UWA3D single view dataset: 15 joints, torso joint ID is '9';
+   - UWA3D single view dataset: 15 joints, torso joint ID is '9';
 
--- UWA3D multi view dataset: 15 joints, torso joint ID is '3';
+   - UWA3D multi view dataset: 15 joints, torso joint ID is '3';
 
 - Run 'main' of random decision forests (Lei uses different 'main' for different datasets since different datasets should have different training and testing datasets). In Lei's implementation, half of data are used for training and the remaining half for testing.
 
