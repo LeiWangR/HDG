@@ -12,6 +12,8 @@ This repository contains the implementation of the model presented in the follow
 
 ## Datasets
 
+You can download the depth/skeleton sequences for the following datasets here: 
+
 - MSRAction3D
 - 3DActionPairs
 - UWA3DActivity
