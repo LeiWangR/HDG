@@ -2,7 +2,7 @@
 
 This repo contains the implementation for 'Analysis and Evaluation of Kinect-based Action Recognition Algorithms'. 
 
-## Introduction
+## 1 Introduction
 
 This repository contains the implementation of the model presented in the following paper:
 
@@ -10,7 +10,7 @@ This repository contains the implementation of the model presented in the follow
 
 [2] Lei Wang, Du Q. Huynh, and Piotr Koniusz. **A Comparative Review of Recent Kinect-Based Action Recognition Algorithms**. *IEEE Transactions on Image Processing*, 29: 15-28, 2020.
 
-## Other algorithms evaluated in TIP paper
+## 2 Other algorithms compared in TIP paper
 
 You can download other algorithms we evaluated in *TIP* paper from the following links:
 
@@ -21,7 +21,7 @@ You can download other algorithms we evaluated in *TIP* paper from the following
 - [HPM](https://drive.google.com/file/d/1pyb-qE1nup4ai1mhYVeibaizV1jV-EvR/view?usp=sharing)
 
 
-## Datasets
+## 3 Datasets used in TIP paper
 
 You can download the depth/skeleton sequences for the following datasets here: 
 
@@ -35,17 +35,17 @@ For UWA3DActivity+UWA3D Multiview Activity depth only, you can use [this link](h
 
 For CAD60 depth only, please use [this link](https://pan.baidu.com/s/1y11YieObi4H1GM6pe2P75g) (extraction code: 36wt)
 
-## Run the codes of HDG
+## 4 Run the codes of HDG
 
 This is an implementation for Rahmani et al.’s paper ‘Real Time Action Recognition Using Histograms of Depth Gradients and Random Decision Forests’ (2014 WACV). To run the HDG algorithm:
 
-### Data preparation
+### 4.1 Data preparation
 
 - Go to the 'Dataset' folder, then go to the 'depth' folder and copy all depth sequence in this folder (should be .mat format and the internal data has the same name 'inDepthVideo'). 
 
 - After that go to the 'skeleton' folder, copy all skeleton sequence (the skeleton sequence should also be .mat format and each skeleton sequence has the following dimension: #jointsx3x#frames, here 3 represents x, y and d respectively), the internal data has the same name 'skeletonsequence'.
 
-### Feature extraction and concatenation
+### 4.2 Feature extraction and concatenation
 
 - Go to the 'MATLAB_Codes' folder, run each 'main' in each algorithm folder(in the order of 00, 01, 02 and 03), and then run 'main' in 'feature_concatenating'. You can also run '02' and '03' first and then run '00' and '01', since '00' may need more time for segmenting the foreground (around 6 hours) and '01' is based on the results of '00'.
 
@@ -65,7 +65,7 @@ This is an implementation for Rahmani et al.’s paper ‘Real Time Action Recog
 
     - UWA3D multi view dataset: 15 joints, torso joint ID is '3';
 
-### Classification
+### 4.3 Classification
 
 - Run 'main' of random decision forests (Lei uses different 'main' for different datasets since different datasets should have different training and testing datasets). In Lei's implementation, half of data are used for training and the remaining half for testing.
 
@@ -79,7 +79,7 @@ This is an implementation for Rahmani et al.’s paper ‘Real Time Action Recog
 
   - UWA3D multi view: 'uwamultimain.m'
 
-### Visualization (i.e., confusion matrix)
+### 4.4 Visualization (i.e., confusion matrix)
 - The results of the confusion matrix will be saved in the 'Results' folder, and the confusion matrix will be displayed. Moreover, the total accuracy will appear in the workspace of the MATLAB.
 
 
@@ -90,7 +90,7 @@ This is an implementation for Rahmani et al.’s paper ‘Real Time Action Recog
 
 For more information, please refer to my research report and journal paper.
 
-## Citations
+## 5 Citations
 
 You can cite the following papers for this work:
 
