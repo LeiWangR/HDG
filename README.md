@@ -19,6 +19,8 @@ You can download other algorithms we evaluated in *TIP* paper from the following
 - [LARP-SE](https://drive.google.com/file/d/1XOd3bKDDqOJ1UHSdDBiVuAwlb3JGQYGw/view?usp=sharing)
 - [LARP-SO]()
 - [HPM](https://drive.google.com/file/d/1pyb-qE1nup4ai1mhYVeibaizV1jV-EvR/view?usp=sharing)
+- [IndRNN](https://github.com/Sunnydreamrain/IndRNN_pytorch)
+- [ST-GCN](https://github.com/yysijie/st-gcn)
 
 
 ## 3 Datasets used in TIP paper
