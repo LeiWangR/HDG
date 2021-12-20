@@ -10,12 +10,20 @@ This repository contains the implementation of the model presented in the follow
 
 [2] Lei Wang, Du Q. Huynh, and Piotr Koniusz. **A Comparative Review of Recent Kinect-Based Action Recognition Algorithms**. *IEEE Transactions on Image Processing*, 29: 15-28, 2020.
 
+## Other algorithms
+
+You can download other algorithms we evaluated in *TIP* paper from the following links:
+
+- [HON4D + MSRAction3D/3DActionPairs]{https://drive.google.com/file/d/1La-9AFKWbJ4MfjnVB0FxBlmWFBlNhXx5/view?usp=sharing}
+- HOPC
+- 
+
+
+
 ## Datasets
 
-You can download the depth/skeleton sequences for the following datasets here: 
+You can download the RGB/depth/skeleton sequences for the following datasets here: 
 
-- MSRAction3D
-- 3DActionPairs
 - UWA3DActivity
 - UWA3D Multiview Activity
 - CAD60
@@ -78,7 +86,7 @@ For more information, please refer to my research report: “Analysis and Evalua
 
 ## Citations
 
-Please cite the following papers if you are interested in this work.
+Please cite the following papers:
 
 ```
 @mastersthesis{lei_thesis_2017,
