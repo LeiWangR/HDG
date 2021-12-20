@@ -88,7 +88,7 @@ This is an implementation for Rahmani et al.’s paper ‘Real Time Action Recog
 
 **Codes for parameters evaluation, running over all possible 252 combinations of selecting half subjects for training are not provided.**
 
-For more information, please refer to my research report and journal paper.
+For more information, please refer to my research report and our journal paper.
 
 ## 5 Citations
 
