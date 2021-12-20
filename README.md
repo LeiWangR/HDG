@@ -1,6 +1,6 @@
 # HDG
 
-This repo contains the implementation for `Analysis and Evaluation of Kinect-based Action Recognition Algorithms'. 
+This repo contains the implementation for 'Analysis and Evaluation of Kinect-based Action Recognition Algorithms'. 
 
 ## Run the codes
 
@@ -12,7 +12,7 @@ To run this algorithm:
 
 - Go to the 'MATLAB_Codes' folder, run each 'main' in each algorithm folder(in the order of 00, 01, 02 and 03), and then run 'main' in 'feature_concatenating'. You can also run '02' and '03' first and then run '00' and '01', since '00' may need more time for segmenting the foreground (around 6 hours) and '01' is based on the results of '00'.
 
-- For UWAMultiview dataset, remember to change the video sequence from uint16 to double using im2double before running each main in 00 and 01: in both 00 and 01 folders, in main function line 33 & 17, change ‘depthsequence=actionvolume;’ to ‘depthsequence=im2double(actionvolume);’.
+- For UWAMultiview dataset, remember to change the video sequence from uint16 to double using im2double before running each main in 00 and 01: in both 00 and 01 folders, in main function line 33 & 17, change `depthsequence=actionvolume;` to `depthsequence=im2double(actionvolume);`.
 
 - For feature concatenating, you can select different combinations of features for classification. There are four features, which are hod(histogram of depth), hodg(histogram of depth gradients), jmv(joint movement volume features) and jpd(joint position differences features).
 
