@@ -29,7 +29,7 @@ You can download the depth/skeleton sequences for the following datasets here:
 - [3DActionPairs](https://drive.google.com/file/d/1rjCqzFxZpF42YaPtvsaRokXAFuyz8Wbh/view?usp=sharing)
 - [UWA3DActivity](https://drive.google.com/file/d/1VCCxLItHU3g2xGYs87r5TlooiicuO2Ak/view?usp=sharing)
 - [UWA3D Multiview Activity](https://drive.google.com/file/d/1ni76DwhNZvmLqP011qKir7ZFsRbW3bFn/view?usp=sharing)
-- [CAD60]()
+- [CAD60](https://drive.google.com/drive/folders/1VshMi77TuaDcd-x2s1zH9N-iDD7KIu7Z?usp=sharing)
 
 For UWA3DActivity+UWA3D Multiview Activity depth only, you can use [this link](https://pan.baidu.com/s/1R5JRX8JnaFzEBAsZEtVUyQ)(extraction code: 172h). 
 
