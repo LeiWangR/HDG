@@ -10,6 +10,15 @@ This repository contains the implementation of the model presented in the follow
 
 [2] Lei Wang, Du Q. Huynh, and Piotr Koniusz. **A Comparative Review of Recent Kinect-Based Action Recognition Algorithms**. *IEEE Transactions on Image Processing*, 29: 15-28, 2020.
 
+## Datasets
+
+- MSRAction3D
+- 3DActionPairs
+- UWA3DActivity
+- UWA3D Multiview Activity
+- CAD60
+
+
 ## Run the codes
 
 To run this algorithm:
