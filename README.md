@@ -14,7 +14,7 @@ This repository contains the implementation of the model presented in the follow
 
 You can download other algorithms we evaluated in *TIP* paper from the following links:
 
-- [HON4D + MSRAction3D/3DActionPairs]{https://drive.google.com/file/d/1La-9AFKWbJ4MfjnVB0FxBlmWFBlNhXx5/view?usp=sharing}
+- [HON4D + MSRAction3D/3DActionPairs](https://drive.google.com/file/d/1La-9AFKWbJ4MfjnVB0FxBlmWFBlNhXx5/view?usp=sharing)
 - HOPC
 - 
 
