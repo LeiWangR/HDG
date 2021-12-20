@@ -25,7 +25,7 @@ You can download other algorithms we evaluated in *TIP* paper from the following
 
 ## 3 Datasets used in TIP paper
 
-You can download the depth/skeleton sequences for the following datasets here (for big datasets such as NTU-60 and NTU-120 please refer to [this link](https://github.com/shahroudy/NTURGB-D)): 
+You can download the depth+skeleton sequences for the following datasets here (for big datasets such as NTU-60 and NTU-120 please refer to [this link](https://github.com/shahroudy/NTURGB-D)): 
 
 - [MSRAction3D](https://drive.google.com/file/d/1kTp_QK2uRvY4sx9cSfuoTi2saBpIeqP5/view?usp=sharing)
 - [3DActionPairs](https://drive.google.com/file/d/1rjCqzFxZpF42YaPtvsaRokXAFuyz8Wbh/view?usp=sharing)
