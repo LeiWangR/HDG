@@ -25,7 +25,7 @@ You can download other algorithms we evaluated in *TIP* paper from the following
 
 ## 3 Datasets used in TIP paper
 
-You can download the depth+skeleton sequences for the following datasets here (for big datasets such as NTU-60 and NTU-120 please refer to [this link](https://github.com/shahroudy/NTURGB-D)): 
+You can directly download the depth+skeleton sequences for the following smaller datasets here: 
 
 - [MSRAction3D](https://drive.google.com/file/d/1kTp_QK2uRvY4sx9cSfuoTi2saBpIeqP5/view?usp=sharing)
 - [3DActionPairs](https://drive.google.com/file/d/1rjCqzFxZpF42YaPtvsaRokXAFuyz8Wbh/view?usp=sharing)
@@ -36,6 +36,8 @@ You can download the depth+skeleton sequences for the following datasets here (f
 For UWA3DActivity+UWA3D Multiview Activity depth only, you can use [this link](https://pan.baidu.com/s/1R5JRX8JnaFzEBAsZEtVUyQ)(extraction code: 172h). 
 
 For CAD60 depth only, please use [this link](https://pan.baidu.com/s/1y11YieObi4H1GM6pe2P75g) (extraction code: 36wt)
+
+For big datasets such as NTU-60 and NTU-120 (NTU RGB-D) please refer to [this link](https://github.com/shahroudy/NTURGB-D) for the request to download)
 
 ## 4 Run the codes of HDG
 
