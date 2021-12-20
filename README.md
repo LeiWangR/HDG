@@ -59,7 +59,7 @@ For more information, please refer to my research report: “Analysis and Evalua
 
 ## Citations
 
-
+Please cite the following papers if you are interested in this work.
 
 ```
 @mastersthesis{lei_thesis_2017,
