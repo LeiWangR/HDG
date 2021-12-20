@@ -1,6 +1,10 @@
 # A Comparative Review of Recent Kinect-Based Action Recognition Algorithms
 
-This repo contains the HDG implementation for 'Analysis and Evaluation of Kinect-based Action Recognition Algorithms', and provides the links for downloading the algorithms and smaller datasets for action recognition. 
+This repo contains: 
+
+- the HDG implementation for 'Analysis and Evaluation of Kinect-based Action Recognition Algorithms', and 
+- provides the links for downloading the algorithms evaluated in our TIP journal and 
+- provides direct links to download smaller datasets for action recognition. 
 
 ## 1 Introduction
 
