@@ -46,7 +46,9 @@ For big datasets such as NTU-60 and NTU-120 (NTU RGB-D) please refer to [this li
 
 ## 4 Run the codes of HDG
 
-This is an implementation for Rahmani et al.’s paper ‘Real Time Action Recognition Using Histograms of Depth Gradients and Random Decision Forests’ (2014 WACV). To run our new HDG algorithm (TIP2020):
+This is an implementation based on Rahmani et al.’s paper ‘Real Time Action Recognition Using Histograms of Depth Gradients and Random Decision Forests’ (2014 WACV). 
+
+To run our new HDG algorithm (which is analysed and compared in our TIP2020 paper):
 
 ### 4.0 Skeleton configuration graph
 
