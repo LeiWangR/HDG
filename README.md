@@ -2,7 +2,7 @@
 
 This repo contains: 
 
-- the HDG implementation for 'Analysis and Evaluation of Kinect-based Action Recognition Algorithms', and 
+- the HDG implementation (Matlab) for 'Analysis and Evaluation of Kinect-based Action Recognition Algorithms', and 
 - provides the links for downloading the algorithms evaluated in our *TIP* journal and 
 - provides direct links to download 5 smaller datasets for action recognition research. 
 
