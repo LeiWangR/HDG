@@ -2,7 +2,7 @@
 
 This repo contains: 
 
-- the HDG implementation (Matlab) for 'Analysis and Evaluation of Kinect-based Action Recognition Algorithms', and 
+- the HDG implementation (Matlab codes) for 'Analysis and Evaluation of Kinect-based Action Recognition Algorithms', and 
 - provides the links (google drive) for downloading the algorithms evaluated in our *TIP* journal and 
 - provides direct links (google drive) to download 5 smaller datasets for action recognition research. 
 
@@ -21,12 +21,12 @@ We also provide the links for downloading the algorithms/datasets used in our *T
 You can download other algorithms we evaluated in *TIP* paper from the following links:
 
 - [HON4D + MSRAction3D/3DActionPairs](https://drive.google.com/file/d/1qahLGmS137yCEf3KLXJMApj7MDgdwEUw/view?usp=sharing) (CVPR2013)
-- [HOPC](https://drive.google.com/file/d/1La-9AFKWbJ4MfjnVB0FxBlmWFBlNhXx5/view?usp=sharing) (TPAMI2016, Matlab)
-- [LARP-SE](https://drive.google.com/file/d/1XOd3bKDDqOJ1UHSdDBiVuAwlb3JGQYGw/view?usp=sharing) (CVPR2014, Matlab)
-- [LARP-SO](https://drive.google.com/drive/folders/1THaljmQ7m0uBQ5aW8TX8Yk81sEhluJep?usp=sharing) (CVPR2016, Matlab)
-- [HPM](https://drive.google.com/file/d/1pyb-qE1nup4ai1mhYVeibaizV1jV-EvR/view?usp=sharing) (CVPR2016, Matlab)
-- [IndRNN](https://github.com/Sunnydreamrain/IndRNN_pytorch) (CVPR2018, Python)
-- [ST-GCN](https://github.com/yysijie/st-gcn) (AAAI2018, Python)
+- [HOPC](https://drive.google.com/file/d/1La-9AFKWbJ4MfjnVB0FxBlmWFBlNhXx5/view?usp=sharing) (TPAMI2016, Matlab codes)
+- [LARP-SE](https://drive.google.com/file/d/1XOd3bKDDqOJ1UHSdDBiVuAwlb3JGQYGw/view?usp=sharing) (CVPR2014, Matlab codes)
+- [LARP-SO](https://drive.google.com/drive/folders/1THaljmQ7m0uBQ5aW8TX8Yk81sEhluJep?usp=sharing) (CVPR2016, Matlab codes)
+- [HPM](https://drive.google.com/file/d/1pyb-qE1nup4ai1mhYVeibaizV1jV-EvR/view?usp=sharing) (CVPR2016, Matlab codes)
+- [IndRNN](https://github.com/Sunnydreamrain/IndRNN_pytorch) (CVPR2018, Python codes)
+- [ST-GCN](https://github.com/yysijie/st-gcn) (AAAI2018, Python codes)
 
 
 ## 3 Datasets used in TIP paper
