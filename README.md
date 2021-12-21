@@ -13,7 +13,7 @@ This repository contains the implementation of the model presented in the follow
 [1] Lei Wang, 2017. **Analysis and Evaluation of Kinect-based Action Recognition Algorithms**. *Master's thesis*. School of Computer Science and Software Engineering, The University of Western Australia. [ArXiv](https://arxiv.org/abs/2112.08626) 
 <details>
   <summary>bibtex</summary>
-  ```
+
 @mastersthesis{lei_thesis_2017,
   author       = {Lei Wang}, 
   title        = {Analysis and Evaluation of {K}inect-based Action Recognition Algorithms},
@@ -21,7 +21,7 @@ This repository contains the implementation of the model presented in the follow
   year         = 2017,
   month        = {Nov}
 }
-  ```
+
 </details>
 
 [2] Lei Wang, Du Q. Huynh, and Piotr Koniusz. **A Comparative Review of Recent Kinect-Based Action Recognition Algorithms**. *IEEE Transactions on Image Processing*, 29: 15-28, 2020. [ArXiv](https://arxiv.org/abs/1906.09955)
