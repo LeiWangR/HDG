@@ -65,7 +65,7 @@ This is an implementation based on Rahmani et al.’s paper ‘Real Time Action 
 
 To run our new HDG algorithm (which is analysed and compared in our *TIP*2020 paper):
 
-### 4.0 Skeleton configuration graph
+### 4.0 A glance of skeleton configuration
 
 To know more detailed information about the skeleton configuration/graph, please refer to the pdf file attached in this repo.
 
