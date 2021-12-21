@@ -14,6 +14,8 @@ This repository contains the implementation of the model presented in the follow
 
 [2] Lei Wang, Du Q. Huynh, and Piotr Koniusz. **A Comparative Review of Recent Kinect-Based Action Recognition Algorithms**. *IEEE Transactions on Image Processing*, 29: 15-28, 2020. [ArXiv](https://arxiv.org/abs/1906.09955)
 
+
+
 ## 2 Other algorithms compared in TIP paper
 
 You can download other algorithms we evaluated in *TIP* paper from the following links:
