@@ -8,12 +8,13 @@ This repo contains:
 
 ## 1 Introduction
 
-This repository contains the implementation of the model presented in the following paper:
+This repository contains the implementation of HDG presented in the following paper:
 
 [1] Lei Wang, 2017. **Analysis and Evaluation of Kinect-based Action Recognition Algorithms**. *Master's thesis*. School of Computer Science and Software Engineering, The University of Western Australia. [[ArXiv]](https://arxiv.org/abs/2112.08626) [[BibTex]](#citation)
 
 [2] Lei Wang, Du Q. Huynh, and Piotr Koniusz. **A Comparative Review of Recent Kinect-Based Action Recognition Algorithms**. *IEEE Transactions on Image Processing*, 29: 15-28, 2020. [[ArXiv]](https://arxiv.org/abs/1906.09955) [[BibTex]](#citation)
 
+We also provide the links for downloading the algorithms/datasets used in our TIP paper.
 
 ## 2 Other algorithms compared in TIP paper
 
