@@ -103,6 +103,7 @@ To know more detailed information about the skeleton configuration/graph, please
 ### 4.4 Visualization (i.e., confusion matrix)
 - The results of the confusion matrix will be saved in the 'Results' folder, and the confusion matrix will be displayed. Moreover, the total accuracy will appear in the workspace of the MATLAB.
 
+#### 4.4.1 Save figures to pdf format
 
 - `saveTightFigure` function is downloaded from online resource, which can be used to save the confusion matrix plot as pdf files. The use of this function is, for example: `saveTightFigure(gcf, 'uwamultiview.pdf');`
 
