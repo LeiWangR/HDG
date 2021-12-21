@@ -66,7 +66,11 @@ To know more detailed information about the skeleton configuration/graph, please
 
 - For UWAMultiview dataset, remember to change the video sequence from uint16 to double using im2double before running each main in 00 and 01: in both 00 and 01 folders, in main function line 33 & 17, change `depthsequence=actionvolume;` to `depthsequence=im2double(actionvolume);`.
 
-- For feature concatenating, you can select different combinations of features for classification. There are four features, which are hod(histogram of depth), hodg(histogram of depth gradients), jmv(joint movement volume features) and jpd(joint position differences features).
+- For feature concatenating, you can select different combinations of features for classification. There are four features, which are:
+  - hod(histogram of depth), 
+  - hodg(histogram of depth gradients), 
+  - jmv(joint movement volume features) and 
+  - jpd(joint position differences features).
 
 - Remember to change the number of joints and the torso joint ID in the 'main' of '02' and '03' since different datasets have different number of joints and torso joint IDs. 
 
