@@ -31,7 +31,7 @@ You can download other algorithms we evaluated in *TIP* paper from the following
 
 ## 3 Datasets used in TIP paper
 
-### 3.1 5 Smaller datasets 
+### 3.1 Five Smaller datasets 
 
 #### 3.1.1 Depth+Skeleton
 
