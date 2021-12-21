@@ -89,7 +89,7 @@ UWAS denotes the skeleton configuration for UWA3D Activity, and UWAW is for UWA3
   - jmv(joint movement volume features) and 
   - jpd(joint position differences features).
 
-- Remember to change the number of joints and the torso joint ID in the 'main' of '02' and '03' since different datasets have different number of joints and torso joint IDs. 
+- Remember to change the number of joints and the torso joint ID in the 'main' of '02' and '03' since different datasets have different number of joints and torso joint IDs (refer to the pdf attached in this repo for the skeleton configuration). 
 
    - MSRPairs (3D Action Pairs): 20 joints, torso joint ID is '2';
    - MSRAction3D: 20 joints, torso joint ID is '4';
