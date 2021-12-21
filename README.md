@@ -39,6 +39,8 @@ You can directly download the depth+skeleton sequences for the following smaller
 - [UWA3D Multiview Activity II](https://drive.google.com/file/d/1ni76DwhNZvmLqP011qKir7ZFsRbW3bFn/view?usp=sharing)
 - [CAD-60](https://drive.google.com/drive/folders/1VshMi77TuaDcd-x2s1zH9N-iDD7KIu7Z?usp=sharing)
 
+The above 5 downloaded datasets contain depth + skeleton data, which you can directly use for HDG algorithm in this repo (just unzip and put the Dataset folder into HDG folder).
+
 For UWA3DActivity+UWA3D Multiview Activity II depth only, you can use [this link](https://pan.baidu.com/s/1R5JRX8JnaFzEBAsZEtVUyQ)(extraction code: 172h). 
 
 For CAD-60 depth only, please use [this link](https://pan.baidu.com/s/1y11YieObi4H1GM6pe2P75g) (extraction code: 36wt)
