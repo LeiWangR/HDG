@@ -140,5 +140,5 @@ month={},}
 
 #### Acknowledgments
 
-We would like to thank the authors of HON4D, HOPC, LARP-SO, HPM+TM, IndRNN and ST-GCN for making their codes publicly available. We thank the ROSE Lab of Nanyang Technological University(NTU), Singapore, for making the NTU RGB+D dataset freely accessible.
+I am grateful to Associate Professor Du Huynh for her valuable suggestions and discussions. We would like to thank the authors of HON4D, HOPC, LARP-SO, HPM+TM, IndRNN and ST-GCN for making their codes publicly available. We thank the ROSE Lab of Nanyang Technological University(NTU), Singapore, for making the NTU RGB+D dataset freely accessible.
 
