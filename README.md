@@ -124,7 +124,7 @@ You can cite the following papers for the use of this work:
 ```
 
 ```
-@ARTICLE{lei_tip_2019,
+@article{lei_tip_2019,
 author={Lei Wang and Du Q. Huynh and Piotr Koniusz},
 journal={IEEE Transactions on Image Processing},
 title={A Comparative Review of Recent Kinect-Based Action Recognition Algorithms},
