@@ -41,7 +41,7 @@ For UWA3DActivity+UWA3D Multiview Activity depth only, you can use [this link](h
 
 For CAD60 depth only, please use [this link](https://pan.baidu.com/s/1y11YieObi4H1GM6pe2P75g) (extraction code: 36wt)
 
-For big datasets such as NTU-60 and NTU-120 (NTU RGB-D) please refer to [this link](https://github.com/shahroudy/NTURGB-D) for the request to download)
+For big datasets such as NTU-60 and NTU-120 (NTU RGB-D) please refer to [this link](https://github.com/shahroudy/NTURGB-D) for the request to download.
 
 ## 4 Run the codes of HDG
 
@@ -77,15 +77,15 @@ This is an implementation for Rahmani et al.’s paper ‘Real Time Action Recog
 
 - Run 'main' of random decision forests (Lei uses different 'main' for different datasets since different datasets should have different training and testing datasets). In Lei's implementation, half of data are used for training and the remaining half for testing.
 
-  - MSRPairs: 'msrpairsmain.m'
+  - MSRPairs: `msrpairsmain.m`
 
-  - MSRAction3D: 'msr3dmain.m'
+  - MSRAction3D: `msr3dmain.m`
 
-  - CAD60: 'cad main.m'
+  - CAD60: `cadmain.m`
 
-  - UWA3D single view: 'uwasinglemain.m'
+  - UWA3D single view: `uwasinglemain.m`
 
-  - UWA3D multi view: 'uwamultimain.m'
+  - UWA3D multi view: `uwamultimain.m`
 
 ### 4.4 Visualization (i.e., confusion matrix)
 - The results of the confusion matrix will be saved in the 'Results' folder, and the confusion matrix will be displayed. Moreover, the total accuracy will appear in the workspace of the MATLAB.
