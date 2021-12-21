@@ -109,6 +109,7 @@ To know more detailed information about the skeleton configuration/graph, please
 
 For more information, please refer to my research report and journal paper, or contact us.
 
+
 ## 5 Citations
 
 You can cite the following papers for the use of this work:
@@ -136,4 +137,8 @@ doi={10.1109/TIP.2019.2925285},
 ISSN={1941-0042},
 month={},}
 ```
+
+#### Acknowledgments
+
+We would like to thank the authors of HON4D, HOPC, LARP-SO, HPM+TM, IndRNN and ST-GCN for making their codes publicly available. We thank the ROSE Lab of Nanyang Technological University(NTU), Singapore, for making the NTU RGB+D dataset freely accessible.
 
