@@ -112,7 +112,7 @@ To know more detailed information about the skeleton configuration/graph, please
 For more information, please refer to my research report and journal paper, or contact us.
 
 
-<h3 id="user-content-citation"> 5 Citations </h3>
+<h2 id="citation"> 5 Citations </h2>
 
 You can cite the following papers for the use of this work:
 
