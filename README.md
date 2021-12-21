@@ -3,7 +3,7 @@
 This repo contains: 
 
 - the HDG implementation for 'Analysis and Evaluation of Kinect-based Action Recognition Algorithms', and 
-- provides the links for downloading the algorithms evaluated in our TIP journal and 
+- provides the links for downloading the algorithms evaluated in our *TIP* journal and 
 - provides direct links to download 5 smaller datasets for action recognition research. 
 
 ## 1 Introduction
@@ -14,9 +14,9 @@ This repository contains the implementation of HDG presented in the following pa
 
 [2] Lei Wang, Du Q. Huynh, and Piotr Koniusz. **A Comparative Review of Recent Kinect-Based Action Recognition Algorithms**. *IEEE Transactions on Image Processing*, 29: 15-28, 2020. [[ArXiv]](https://arxiv.org/abs/1906.09955) [[BibTex]](#citation)
 
-We also provide the links for downloading the algorithms/datasets used in our TIP paper.
+We also provide the links for downloading the algorithms/datasets used in our *TIP* paper.
 
-## 2 Other algorithms compared in TIP paper
+## 2 Other algorithms compared in *TIP* paper
 
 You can download other algorithms we evaluated in *TIP* paper from the following links:
 
@@ -29,7 +29,7 @@ You can download other algorithms we evaluated in *TIP* paper from the following
 - [ST-GCN](https://github.com/yysijie/st-gcn) (AAAI2018)
 
 
-## 3 Datasets used in TIP paper
+## 3 Datasets used in *TIP* paper
 
 You can directly download the depth+skeleton sequences for the following smaller datasets here: 
 
@@ -50,7 +50,7 @@ For big datasets such as NTU-60 and NTU-120 (NTU RGB-D) please refer to [this li
 
 This is an implementation based on Rahmani et al.’s paper ‘Real Time Action Recognition Using Histograms of Depth Gradients and Random Decision Forests’ (WACV2014). 
 
-To run our new HDG algorithm (which is analysed and compared in our TIP2020 paper):
+To run our new HDG algorithm (which is analysed and compared in our *TIP*2020 paper):
 
 ### 4.0 Skeleton configuration graph
 
