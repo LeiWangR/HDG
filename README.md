@@ -56,6 +56,8 @@ To run our new HDG algorithm (which is analysed and compared in our *TIP*2020 pa
 
 To know more detailed information about the skeleton configuration/graph, please refer to the pdf file attached in this repo.
 
+UWAS denotes the skeleton configuration for UWA3D Activity, and UWAW is for UWA3D Multiview Activity II.
+
 ### 4.1 Data preparation
 
 - Go to the 'Dataset' folder, then go to the 'depth' folder and copy all depth sequence in this folder (should be .mat format and the internal data has the same name 'inDepthVideo'). 
