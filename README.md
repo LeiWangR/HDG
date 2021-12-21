@@ -1,4 +1,4 @@
-# A Comparative Review of Recent Kinect-Based Action Recognition Algorithms
+# A Comparative Review of Recent Kinect-Based\\ Action Recognition Algorithms
 
 This repo contains: 
 
