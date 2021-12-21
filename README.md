@@ -44,9 +44,9 @@ The above 5 downloaded datasets contain depth + skeleton data, which you can dir
 - put the Dataset folder into HDG folder, then 
 - extract the features (refer to following sections for more details).
 
-For UWA3DActivity+UWA3D Multiview Activity II depth only, you can use [this link](https://pan.baidu.com/s/1R5JRX8JnaFzEBAsZEtVUyQ)(extraction code: 172h). 
+For downloading the UWA3DActivity+UWA3D Multiview Activity II depth only, you can use [this link](https://pan.baidu.com/s/1R5JRX8JnaFzEBAsZEtVUyQ)(extraction code: 172h). 
 
-For CAD-60 depth only, please use [this link](https://pan.baidu.com/s/1y11YieObi4H1GM6pe2P75g) (extraction code: 36wt)
+For downloading the CAD-60 depth only, please use [this link](https://pan.baidu.com/s/1y11YieObi4H1GM6pe2P75g) (extraction code: 36wt)
 
 For big datasets such as NTU-60 and NTU-120 (NTU RGB-D) please refer to [this link](https://github.com/shahroudy/NTURGB-D) for the request to download.
 
