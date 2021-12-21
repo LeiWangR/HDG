@@ -117,7 +117,7 @@ UWAS denotes the skeleton configuration for UWA3D Activity, and UWAW is for UWA3
 
 **Codes for parameters evaluation, running over all possible 252 combinations of selecting half subjects for training are not provided.**
 
-For more information, please refer to my research report and journal paper, or contact us.
+For more information, please refer to my research report and our journal paper, or contact me.
 
 
 ## 5 Citations
