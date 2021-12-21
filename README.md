@@ -79,13 +79,9 @@ UWAS denotes the skeleton configuration for UWA3D Activity, and UWAW is for UWA3
 - Remember to change the number of joints and the torso joint ID in the 'main' of '02' and '03' since different datasets have different number of joints and torso joint IDs. 
 
    - MSRPairs (3D Action Pairs): 20 joints, torso joint ID is '2';
-
    - MSRAction3D: 20 joints, torso joint ID is '4';
-
    - CAD-60: 15 joints, torso joint ID is '3';
-
    - UWA3D single view dataset (UWA3D Activity): 15 joints, torso joint ID is '9';
-
    - UWA3D multi view dataset (UWA3D Multiview Activity II): 15 joints, torso joint ID is '3';
 
 ### 4.3 Classification
@@ -93,13 +89,9 @@ UWAS denotes the skeleton configuration for UWA3D Activity, and UWAW is for UWA3
 - Run 'main' of random decision forests (Lei uses different 'main' for different datasets since different datasets should have different training and testing datasets). In Lei's implementation, half of data are used for training and the remaining half for testing.
 
   - MSRPairs (3D Action Pairs): `msrpairsmain.m`
-
   - MSRAction3D: `msr3dmain.m`
-
   - CAD-60: `cadmain.m`
-
   - UWA3D single view (UWA3D Activity): `uwasinglemain.m`
-
   - UWA3D multi view (UWA3D Multiview Activity II): `uwamultimain.m`
 
 ### 4.4 Visualization (i.e., confusion matrix)
