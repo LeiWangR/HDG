@@ -115,7 +115,7 @@ UWAS denotes the skeleton configuration for UWA3D Activity, and UWAW is for UWA3
 - `saveTightFigure` function is downloaded from online resource, which can be used to save the confusion matrix plot as pdf files. The use of this function is, for example: `saveTightFigure(gcf, 'uwamultiview.pdf');`
 
 
-**Codes for parameters evaluation, running over all possible 252 combinations of selecting half subjects for training are not provided.**
+**Codes for parameters evaluation, and running over all possible combinations of selecting half subjects (for training) are not provided in this repo.**
 
 For more information, please refer to my research report and our journal paper, or contact me.
 
