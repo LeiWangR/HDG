@@ -16,7 +16,7 @@ This repository contains the implementation of HDG presented in the following pa
 
 We also provide the links for downloading the algorithms/datasets used in our *TIP* paper.
 
-## 2 Other algorithms compared in *TIP* paper
+## 2 Other algorithms compared in TIP paper
 
 You can download other algorithms we evaluated in *TIP* paper from the following links:
 
@@ -29,7 +29,7 @@ You can download other algorithms we evaluated in *TIP* paper from the following
 - [ST-GCN](https://github.com/yysijie/st-gcn) (AAAI2018)
 
 
-## 3 Datasets used in *TIP* paper
+## 3 Datasets used in TIP paper
 
 You can directly download the depth+skeleton sequences for the following smaller datasets here: 
 
