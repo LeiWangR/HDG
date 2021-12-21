@@ -54,7 +54,7 @@ For downloading the UWA3DActivity+UWA3D Multiview Activity II depth only, you ca
 
 For downloading the CAD-60 depth only, please use [this link](https://pan.baidu.com/s/1y11YieObi4H1GM6pe2P75g) (extraction code: 36wt)
 
-### 3.2 Big datasets (NTU RGB-D)
+### 3.2 Big datasets (NTU RGB+D)
 
 For big datasets such as NTU-60 and NTU-120, please refer to [this link](https://github.com/shahroudy/NTURGB-D) for the request to download.
 
@@ -151,9 +151,5 @@ month={},}
 
 #### Acknowledgments
 
-I am grateful to Associate Professor Du Huynh for her valuable suggestions and discussions. 
-
-We would like to thank the authors of HON4D, HOPC, LARP-SO, HPM+TM, IndRNN and ST-GCN for making their codes publicly available. 
-
-We thank the ROSE Lab of Nanyang Technological University(NTU), Singapore, for making the NTU RGB+D dataset freely accessible.
+I am grateful to Associate Professor Du Huynh for her valuable suggestions and discussions. We would like to thank the authors of HON4D, HOPC, LARP-SO, HPM+TM, IndRNN and ST-GCN for making their codes publicly available. We thank the ROSE Lab of Nanyang Technological University(NTU), Singapore, for making the NTU RGB+D dataset freely accessible.
 
