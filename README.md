@@ -107,11 +107,11 @@ To know more detailed information about the skeleton configuration/graph, please
 
 **Codes for parameters evaluation, running over all possible 252 combinations of selecting half subjects for training are not provided.**
 
-For more information, please refer to my research report and our journal paper, or contact us.
+For more information, please refer to my research report and journal paper, or contact us.
 
 ## 5 Citations
 
-You can cite the following papers for this work:
+You can cite the following papers for the use of this work:
 
 ```
 @mastersthesis{lei_thesis_2017,
