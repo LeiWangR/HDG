@@ -12,19 +12,19 @@ This repository contains the implementation of the model presented in the follow
 
 [1] Lei Wang, 2017. **Analysis and Evaluation of Kinect-based Action Recognition Algorithms**. *Master's thesis*. School of Computer Science and Software Engineering, The University of Western Australia. [ArXiv](https://arxiv.org/abs/2112.08626)
 
-[2] Lei Wang, Du Q. Huynh, and Piotr Koniusz. **A Comparative Review of Recent Kinect-Based Action Recognition Algorithms**. *IEEE Transactions on Image Processing*, 29: 15-28, 2020.[ArXiv](https://arxiv.org/abs/1906.09955)
+[2] Lei Wang, Du Q. Huynh, and Piotr Koniusz. **A Comparative Review of Recent Kinect-Based Action Recognition Algorithms**. *IEEE Transactions on Image Processing*, 29: 15-28, 2020. [ArXiv](https://arxiv.org/abs/1906.09955)
 
 ## 2 Other algorithms compared in TIP paper
 
 You can download other algorithms we evaluated in *TIP* paper from the following links:
 
-- [HON4D + MSRAction3D/3DActionPairs](https://drive.google.com/file/d/1qahLGmS137yCEf3KLXJMApj7MDgdwEUw/view?usp=sharing)
-- [HOPC](https://drive.google.com/file/d/1La-9AFKWbJ4MfjnVB0FxBlmWFBlNhXx5/view?usp=sharing)
-- [LARP-SE](https://drive.google.com/file/d/1XOd3bKDDqOJ1UHSdDBiVuAwlb3JGQYGw/view?usp=sharing)
-- [LARP-SO](https://drive.google.com/drive/folders/1THaljmQ7m0uBQ5aW8TX8Yk81sEhluJep?usp=sharing)
-- [HPM](https://drive.google.com/file/d/1pyb-qE1nup4ai1mhYVeibaizV1jV-EvR/view?usp=sharing)
-- [IndRNN](https://github.com/Sunnydreamrain/IndRNN_pytorch)
-- [ST-GCN](https://github.com/yysijie/st-gcn)
+- [HON4D + MSRAction3D/3DActionPairs](https://drive.google.com/file/d/1qahLGmS137yCEf3KLXJMApj7MDgdwEUw/view?usp=sharing) (CVPR2013)
+- [HOPC](https://drive.google.com/file/d/1La-9AFKWbJ4MfjnVB0FxBlmWFBlNhXx5/view?usp=sharing) (TPAMI2016)
+- [LARP-SE](https://drive.google.com/file/d/1XOd3bKDDqOJ1UHSdDBiVuAwlb3JGQYGw/view?usp=sharing) (CVPR2014)
+- [LARP-SO](https://drive.google.com/drive/folders/1THaljmQ7m0uBQ5aW8TX8Yk81sEhluJep?usp=sharing) (CVPR2016)
+- [HPM](https://drive.google.com/file/d/1pyb-qE1nup4ai1mhYVeibaizV1jV-EvR/view?usp=sharing) (CVPR2016)
+- [IndRNN](https://github.com/Sunnydreamrain/IndRNN_pytorch) (CVPR2018)
+- [ST-GCN](https://github.com/yysijie/st-gcn) (AAAI2018)
 
 
 ## 3 Datasets used in TIP paper
@@ -45,7 +45,7 @@ For big datasets such as NTU-60 and NTU-120 (NTU RGB-D) please refer to [this li
 
 ## 4 Run the codes of HDG
 
-This is an implementation for Rahmani et al.’s paper ‘Real Time Action Recognition Using Histograms of Depth Gradients and Random Decision Forests’ (2014 WACV). To run the HDG algorithm:
+This is an implementation for Rahmani et al.’s paper ‘Real Time Action Recognition Using Histograms of Depth Gradients and Random Decision Forests’ (2014 WACV). To run our new HDG algorithm (TIP2020):
 
 ### 4.1 Data preparation
 
