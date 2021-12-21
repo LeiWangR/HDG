@@ -32,21 +32,21 @@ You can download other algorithms we evaluated in *TIP* paper from the following
 You can directly download the depth+skeleton sequences for the following smaller datasets here: 
 
 - [MSRAction3D](https://drive.google.com/file/d/1kTp_QK2uRvY4sx9cSfuoTi2saBpIeqP5/view?usp=sharing)
-- [3DActionPairs](https://drive.google.com/file/d/1rjCqzFxZpF42YaPtvsaRokXAFuyz8Wbh/view?usp=sharing)
-- [UWA3DActivity](https://drive.google.com/file/d/1VCCxLItHU3g2xGYs87r5TlooiicuO2Ak/view?usp=sharing)
-- [UWA3D Multiview Activity](https://drive.google.com/file/d/1ni76DwhNZvmLqP011qKir7ZFsRbW3bFn/view?usp=sharing)
-- [CAD60](https://drive.google.com/drive/folders/1VshMi77TuaDcd-x2s1zH9N-iDD7KIu7Z?usp=sharing)
+- [3D Action Pairs](https://drive.google.com/file/d/1rjCqzFxZpF42YaPtvsaRokXAFuyz8Wbh/view?usp=sharing)
+- [UWA3D Activity](https://drive.google.com/file/d/1VCCxLItHU3g2xGYs87r5TlooiicuO2Ak/view?usp=sharing)
+- [UWA3D Multiview Activity II](https://drive.google.com/file/d/1ni76DwhNZvmLqP011qKir7ZFsRbW3bFn/view?usp=sharing)
+- [CAD-60](https://drive.google.com/drive/folders/1VshMi77TuaDcd-x2s1zH9N-iDD7KIu7Z?usp=sharing)
 
-For UWA3DActivity+UWA3D Multiview Activity depth only, you can use [this link](https://pan.baidu.com/s/1R5JRX8JnaFzEBAsZEtVUyQ)(extraction code: 172h). 
+For UWA3DActivity+UWA3D Multiview Activity II depth only, you can use [this link](https://pan.baidu.com/s/1R5JRX8JnaFzEBAsZEtVUyQ)(extraction code: 172h). 
 
-For CAD60 depth only, please use [this link](https://pan.baidu.com/s/1y11YieObi4H1GM6pe2P75g) (extraction code: 36wt)
+For CAD-60 depth only, please use [this link](https://pan.baidu.com/s/1y11YieObi4H1GM6pe2P75g) (extraction code: 36wt)
 
 For big datasets such as NTU-60 and NTU-120 (NTU RGB-D) please refer to [this link](https://github.com/shahroudy/NTURGB-D) for the request to download.
 
 
 ## 4 Run the codes of HDG
 
-This is an implementation based on Rahmani et al.’s paper ‘Real Time Action Recognition Using Histograms of Depth Gradients and Random Decision Forests’ (2014 WACV). 
+This is an implementation based on Rahmani et al.’s paper ‘Real Time Action Recognition Using Histograms of Depth Gradients and Random Decision Forests’ (WACV2014). 
 
 To run our new HDG algorithm (which is analysed and compared in our TIP2020 paper):
 
@@ -74,29 +74,29 @@ To know more detailed information about the skeleton configuration/graph, please
 
 - Remember to change the number of joints and the torso joint ID in the 'main' of '02' and '03' since different datasets have different number of joints and torso joint IDs. 
 
-   - MSRPairs: 20 joints, torso joint ID is '2';
+   - MSRPairs (3D Action Pairs): 20 joints, torso joint ID is '2';
 
    - MSRAction3D: 20 joints, torso joint ID is '4';
 
-   - CAD60: 15 joints, torso joint ID is '3';
+   - CAD-60: 15 joints, torso joint ID is '3';
 
-   - UWA3D single view dataset: 15 joints, torso joint ID is '9';
+   - UWA3D single view dataset (UWA3D Activity): 15 joints, torso joint ID is '9';
 
-   - UWA3D multi view dataset: 15 joints, torso joint ID is '3';
+   - UWA3D multi view dataset (UWA3D Multiview Activity II): 15 joints, torso joint ID is '3';
 
 ### 4.3 Classification
 
 - Run 'main' of random decision forests (Lei uses different 'main' for different datasets since different datasets should have different training and testing datasets). In Lei's implementation, half of data are used for training and the remaining half for testing.
 
-  - MSRPairs: `msrpairsmain.m`
+  - MSRPairs (3D Action Pairs): `msrpairsmain.m`
 
   - MSRAction3D: `msr3dmain.m`
 
-  - CAD60: `cadmain.m`
+  - CAD-60: `cadmain.m`
 
-  - UWA3D single view: `uwasinglemain.m`
+  - UWA3D single view (UWA3D Activity): `uwasinglemain.m`
 
-  - UWA3D multi view: `uwamultimain.m`
+  - UWA3D multi view (UWA3D Multiview Activity II): `uwamultimain.m`
 
 ### 4.4 Visualization (i.e., confusion matrix)
 - The results of the confusion matrix will be saved in the 'Results' folder, and the confusion matrix will be displayed. Moreover, the total accuracy will appear in the workspace of the MATLAB.
