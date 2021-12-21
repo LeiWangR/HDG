@@ -10,7 +10,7 @@ This repo contains:
 
 This repository contains the implementation of the model presented in the following paper:
 
-[1] Lei Wang, 2017. **Analysis and Evaluation of Kinect-based Action Recognition Algorithms**. *Master's thesis*. School of Computer Science and Software Engineering, The University of Western Australia. [[ArXiv]](https://arxiv.org/abs/2112.08626) <a href="# user-content-citation" id="citation">[BibTex]</a>
+[1] Lei Wang, 2017. **Analysis and Evaluation of Kinect-based Action Recognition Algorithms**. *Master's thesis*. School of Computer Science and Software Engineering, The University of Western Australia. [[ArXiv]](https://arxiv.org/abs/2112.08626) [BibTex](#citation)
 
 [2] Lei Wang, Du Q. Huynh, and Piotr Koniusz. **A Comparative Review of Recent Kinect-Based Action Recognition Algorithms**. *IEEE Transactions on Image Processing*, 29: 15-28, 2020. [[ArXiv]](https://arxiv.org/abs/1906.09955) <a href="# user-content-citation" id="citation">[BibTex]</a>
 
@@ -111,8 +111,8 @@ To know more detailed information about the skeleton configuration/graph, please
 
 For more information, please refer to my research report and journal paper, or contact us.
 
-
-<h2 id="citation"> 5 Citations </h2>
+<a name="citation"></a>
+## 5 Citations
 
 You can cite the following papers for the use of this work:
 
