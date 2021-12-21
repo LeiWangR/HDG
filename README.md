@@ -43,9 +43,14 @@ For CAD60 depth only, please use [this link](https://pan.baidu.com/s/1y11YieObi4
 
 For big datasets such as NTU-60 and NTU-120 (NTU RGB-D) please refer to [this link](https://github.com/shahroudy/NTURGB-D) for the request to download.
 
+
 ## 4 Run the codes of HDG
 
 This is an implementation for Rahmani et al.’s paper ‘Real Time Action Recognition Using Histograms of Depth Gradients and Random Decision Forests’ (2014 WACV). To run our new HDG algorithm (TIP2020):
+
+### 4.0 Skeleton configuration graph
+
+To know more detailed information about the skeleton configuration/graph, please refer to the pdf file attached in this repo.
 
 ### 4.1 Data preparation
 
@@ -61,7 +66,7 @@ This is an implementation for Rahmani et al.’s paper ‘Real Time Action Recog
 
 - For feature concatenating, you can select different combinations of features for classification. There are four features, which are hod(histogram of depth), hodg(histogram of depth gradients), jmv(joint movement volume features) and jpd(joint position differences features).
 
-- Remember to change the number of joints and the torso joint ID in the 'main' of '02' and '03' since different datasets have different number of joints and torso joint IDs. **
+- Remember to change the number of joints and the torso joint ID in the 'main' of '02' and '03' since different datasets have different number of joints and torso joint IDs. 
 
    - MSRPairs: 20 joints, torso joint ID is '2';
 
